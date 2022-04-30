@@ -43,4 +43,6 @@ contract AttackKing {
     // check the prize value; we need to set the msg.value in the Remix IDE to make sure we bid more than current prize
     // set the contract instance address in the field for claimKingship function
     // run the claimKingship function
+
+    // Reference - https://dev.to/nvn/ethernaut-hacks-level-9-king-12
 }
