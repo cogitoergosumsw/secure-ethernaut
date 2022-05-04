@@ -69,3 +69,4 @@ contract AttackPreservation {
 6. confirm that timeZone1Library is set to the AttackPreservation contract address
 7. run setFirstTime() function with any arbituary input and it should execute the malicious function of `owner = msg.sender;`
 8. owner should be set to the attacker's address
+*/
