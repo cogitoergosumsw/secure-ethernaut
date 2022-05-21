@@ -1,5 +1,8 @@
-# secure-ethernaut
-The solutions for solving the Ethernaut puzzles.
+# smart-contract-defence
+The solutions for solving the Web3 CTF puzzles
+
+- [Ethernaut by OpenZeppelin](https://ethernaut.openzeppelin.com/)
+- [Damn Vulnerable Defi](https://www.damnvulnerabledefi.xyz/)
 
 # What is Ethernaut
 
@@ -8,3 +11,9 @@ The Ethernaut is a Web3/Solidity based wargame inspired on overthewire.org, play
 It's a useful platform to pick up smart contract auditing skills.
 
 Website - https://ethernaut.openzeppelin.com/ 
+
+# What is Damn Vulnerable Defi
+
+Damn Vulnerable DeFi is the wargame to learn offensive security of DeFi smart contracts.
+
+Website - https://www.damnvulnerabledefi.xyz/
